@@ -1,5 +1,5 @@
 {
-  "name": "color",
+  "name": "@circuitly/color",
   "version": "5.0.0",
   "description": "Color conversion and manipulation with CSS string support",
   "type": "module",
@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "color-convert": "^3.0.1",
-    "color-string": "^2.0.0"
+    "@circuitly/color-string": "^2.0.0"
   },
   "devDependencies": {
     "mocha": "11.1.0",
