@@ -1,6 +1,6 @@
 {
   "name": "@circuitly/color",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Color conversion and manipulation with CSS string support",
   "type": "module",
   "exports": "./index.js",
@@ -17,36 +17,18 @@
     "Maxime Thirouin"
   ],
   "license": "MIT",
-  "repository": "Qix-/color",
-  "xo": {
-    "rules": {
-      "no-bitwise": 0,
-      "no-cond-assign": 0,
-      "new-cap": 0,
-      "unicorn/prefer-module": 0,
-      "no-mixed-operators": 0,
-      "complexity": 0,
-      "unicorn/numeric-separators-style": 0
-    }
-  },
   "files": [
     "LICENSE",
     "index.js",
     "index.d.ts"
   ],
-  "scripts": {
-    "test": "xo && tsd && mocha"
-  },
   "engines": {
     "node": ">=18"
   },
   "dependencies": {
     "color-convert": "^3.0.1",
-    "@circuitly/color-string": "^2.0.0"
+    "@circuitly/color-string": "^2.0.1"
   },
   "devDependencies": {
-    "mocha": "11.1.0",
-    "tsd": "0.31.2",
-    "xo": "0.60.0"
   }
 }
