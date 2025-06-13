@@ -132,4 +132,6 @@ export type ColorConstructor = {
 // eslint-disable-next-line @typescript-eslint/naming-convention
 declare const Color: ColorConstructor;
 
+/** color should be [0-255,0-255,0-255,optional 0-1] */
+export function registerKeyword(keyword: string, color: [number, number, number] | [number, number, number, number]): void;
 export default Color;

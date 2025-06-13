@@ -1,6 +1,8 @@
 import colorString from 'color-string';
 import convert from 'color-convert';
 
+export { registerKeyword } from 'color-string';
+
 const skippedModels = [
 	// To be honest, I don't really feel like keyword belongs in color convert, but eh.
 	'keyword',
